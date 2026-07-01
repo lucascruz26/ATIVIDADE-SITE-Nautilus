@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nautilus - Profundidade em Cada Jogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="canvas-container"></div>
+
+    <header>
+        <div class="nav-container">
+            <a href="#">
+                <svg class="logo-nautilus" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50,5 C25,5 5,25 5,50 C5,75 25,95 50,95 C75,95 95,75 95,50 C95,25 75,5 50,5 M50,85 C30,85 15,70 15,50 C15,30 30,15 50,15 C70,15 85,30 85,50 C85,70 70,85 50,85 M50,25 C36,25 25,36 25,50 C25,64 36,75 50,75 C64,75 75,64 75,50 C75,36 64,25 50,25 M50,65 C42,65 35,58 35,50 C35,42 42,35 50,35 C58,35 65,42 65,50 C65,58 58,65 50,65 Z" />
+                </svg>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#loja">Loja</a></li>
+                    <li><a href="#jogos">Jogos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#suporte">Suporte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero fade-in">
+            <h1>Nautilus.</h1>
+            <p>Mergulhe em novas realidades.</p>
+            <div class="cta-links">
+                <a href="#jogos" class="btn-primary">Ver Catálogo</a>
+                <a href="#sobre" class="btn-apple">Saiba mais ></a>
+            </div>
+        </section>
+
+        <section id="jogos" class="fade-in">
+            <h2>Próxima Geração.</h2>
+            <p>O futuro da distribuição independente está aqui. Jogos que desafiam a gravidade e a imaginação.</p>
+            <div class="img-reveal">
+                <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt="Game Design">
+            </div>
+        </section>
+
+        <section id="sobre" class="fade-in">
+            <h2 style="background: linear-gradient(90deg, #2997ff, #a2d2ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Inovação no DNA.</h2>
+            <p>Como o náutilo que cresce em câmaras perfeitas, nossa curadoria de jogos busca a perfeição matemática e artística.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Copyright © 2026 Nautilus Games. Todos os direitos reservados.</p>
+            <p style="margin-top: 10px;">Brasil | Política de Privacidade | Termos de Uso</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
